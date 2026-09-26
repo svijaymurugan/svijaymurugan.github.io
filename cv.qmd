@@ -11,7 +11,4 @@ toc: false
   </a>
 </p>
 
-The PDF above is the canonical version. If the preview below doesn't load — most mobile
-browsers won't display an embedded PDF — use the download link instead.
-
 <iframe class="cv-embed" src="files/cv.pdf" title="Siddharth Vijaymurugan - CV"></iframe>

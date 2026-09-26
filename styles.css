@@ -1,72 +1,49 @@
 /* css styles */
 
 /* ---------------------------------------------------------------
-   DuQuantum announcement band (homepage, via files/includes/_duquantum.html)
+   DuQuantum announcement (homepage, via files/includes/_duquantum.html)
    --------------------------------------------------------------- */
 
 .duq-banner {
-  border: 1px solid rgba(0, 83, 155, 0.25);
-  border-left: 5px solid #00539B; /* Duke blue */
-  background: rgba(0, 83, 155, 0.05);
-  border-radius: 0.4rem;
-  margin: 0 0 2.5rem 0;
-  padding: 1.5rem 1.75rem;
-}
-
-.duq-inner {
-  max-width: 60rem;
-}
-
-.duq-eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: #00539B;
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 1.25rem 0;
 }
 
 .duq-title {
-  margin: 0 0 0.6rem 0;
-  font-size: 1.6rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 2.1rem;
   font-weight: 700;
-  border-bottom: none;
-  padding-bottom: 0;
+  line-height: 1.2;
+}
+
+a.duq-link,
+a.duq-link:visited {
+  color: #00539B; /* Duke blue */
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 83, 155, 0.35);
+}
+
+a.duq-link:hover,
+a.duq-link:focus {
+  color: #003f75;
+  border-bottom-color: #003f75;
 }
 
 .duq-blurb {
-  margin: 0 0 1.1rem 0;
-  font-size: 1.02rem;
-  line-height: 1.55;
-}
-
-.duq-cta-wrap {
   margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  max-width: 55rem;
 }
 
-a.duq-cta,
-a.duq-cta:visited {
-  display: inline-block;
-  background: #00539B;
-  color: #fff;
-  font-size: 1.1rem;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 0.7rem 1.4rem;
-  border-radius: 0.35rem;
-}
-
-a.duq-cta:hover,
-a.duq-cta:focus {
-  background: #003f75;
-  color: #fff;
-  text-decoration: none;
+.duq-rule {
+  margin: 1.5rem 0 0 0;
+  border: 0;
+  border-top: 2px solid rgba(0, 83, 155, 0.3);
+  opacity: 1;
 }
 
 @media (max-width: 575px) {
-  .duq-banner { padding: 1.15rem 1.15rem; }
-  .duq-title  { font-size: 1.3rem; }
-  a.duq-cta   { display: block; text-align: center; }
+  .duq-title { font-size: 1.55rem; }
 }
 
 /* ---------------------------------------------------------------

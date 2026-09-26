@@ -163,32 +163,32 @@ https://badge.dimensions.ai/
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full column-page" id="quarto-document-content">
+<main class="content page-columns page-full column-body" id="quarto-document-content">
 <!--
-  DuQuantum announcement band, injected above the about block on the homepage.
+  DuQuantum announcement, injected above the about block on the homepage.
   Wired up in index.qmd via: format.html.include-before-body
-  TODO: replace the blurb text and the href below.
+
+  NOTE: must be a <div class="column-page">, never an <aside>. Quarto's grid CSS
+  has `aside:not(.footnotes):not(.sidebar){grid-column:body-end/page-end}`, which
+  throws the element into the right margin column.
+
+  TODO: replace the blurb paragraph below.
 -->
-<aside class="duq-banner">
-  <div class="duq-inner">
-    <p class="duq-eyebrow">DuQuantum</p>
-    <h2 class="duq-title">TODO: DuQuantum headline</h2>
-    <p class="duq-blurb">
-      TODO: Write the blurb here — what DuQuantum is, who it's for, and what's happening with it
-      right now. Two or three sentences is about right for this space.
-    </p>
-    <p class="duq-cta-wrap">
-      <a class="duq-cta" href="https://TODO-duquantum-url.example.com" target="_blank" rel="noopener">
-        Visit the DuQuantum site →
-      </a>
-    </p>
-  </div>
-</aside>
+<div class="duq-banner column-page">
+  <p class="duq-title">
+    <a class="duq-link" href="https://duquantum.org" target="_blank" rel="noopener">DuQuantum Applications Open!</a>
+  </p>
+  <p class="duq-blurb">
+    TODO: Write the DuQuantum blurb here — what it is, who should apply, and the
+    deadline. Two or three sentences is about right for this space.
+  </p>
+  <hr class="duq-rule">
+</div>
 
 
 
 
-<div class="quarto-about-trestles column-page">
+<div class="quarto-about-trestles column-body">
   <div class="about-entity">
     <img src="files/images/headshot.jpg" class="about-image
   rounded " style="width: 70%;">
@@ -196,7 +196,7 @@ https://badge.dimensions.ai/
 <div class="quarto-title">
 <h1 class="title">Siddharth Vijaymurugan</h1>
 </div>
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-body">
   </div>
 </header>
     <div class="about-links">
