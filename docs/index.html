@@ -97,9 +97,11 @@ https://badge.dimensions.ai/
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Siddharth Vijaymurugan">
+<meta property="og:description" content="B.S. Physics &amp; Mathematics, Duke University · Expected 2027">
 <meta property="og:image" content="https://svijaymurugan.github.io/files/images/headshot.jpg">
 <meta property="og:site_name" content="Siddharth Vijaymurugan">
 <meta name="twitter:title" content="Siddharth Vijaymurugan">
+<meta name="twitter:description" content="B.S. Physics &amp; Mathematics, Duke University · Expected 2027">
 <meta name="twitter:image" content="https://svijaymurugan.github.io/files/images/headshot.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -163,17 +165,20 @@ https://badge.dimensions.ai/
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full column-body" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 <!--
   DuQuantum announcement, injected above the about block on the homepage.
   Wired up in index.qmd via: format.html.include-before-body
 
-  NOTE: must be a <div class="column-page">, never an <aside>. Quarto's grid CSS
-  has `aside:not(.footnotes):not(.sidebar){grid-column:body-end/page-end}`, which
+  NOTE: must be a <div>, never an <aside>. Quarto's grid CSS has
+  `aside:not(.footnotes):not(.sidebar){grid-column:body-end/page-end}`, which
   throws the element into the right margin column.
 
+  The column-body class matches the class Quarto puts on the about block
+  (.quarto-about-trestles) so the two line up on the same grid column.
+
 -->
-<div class="duq-banner column-page">
+<div class="duq-banner">
   <p class="duq-title">
     <a class="duq-link" href="https://duquantum.org" target="_blank" rel="noopener"><span class="duq-brand">DuQuantum</span> Applications Open!</a>
   </p>
@@ -188,15 +193,16 @@ https://badge.dimensions.ai/
 
 
 
-<div class="quarto-about-trestles column-body">
+<div class="quarto-about-trestles column-page">
   <div class="about-entity">
     <img src="files/images/headshot.jpg" class="about-image
   rounded " style="width: 70%;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Siddharth Vijaymurugan</h1>
+<p class="subtitle lead">B.S. Physics &amp; Mathematics, Duke University · Expected 2027</p>
 </div>
-<div class="quarto-title-meta column-body">
+<div class="quarto-title-meta column-page">
   </div>
 </header>
     <div class="about-links">
@@ -220,38 +226,8 @@ https://badge.dimensions.ai/
 <p>I’m an undergraduate at <strong>Duke University</strong> studying <strong>Physics and Mathematics</strong>, graduating in 2027. My interests sit where the two meet: quantum information science, where questions about what physical systems can compute turn out to be questions about structure, representation, and information.</p>
 <!-- TODO: Replace or extend this with a couple of sentences in your own voice - what drew you
      to the field, what you like working on, anything outside coursework worth mentioning. -->
-</section>
-<section id="research-experience" class="level2">
-<h2 data-anchor-id="research-experience">Research Experience</h2>
-<!-- TODO: Fill in each entry below. Delete any you don't need, copy the block for more. -->
-<dl>
-<dt><strong>TODO: Position title</strong> · TODO: Lab or group name</dt>
-<dd>
-<em>TODO: Advisor name, Duke University · TODO: Month Year - Present</em>
-</dd>
-<dd>
-TODO: One or two sentences on what you actually worked on and what came of it.
-</dd>
-<dt><strong>TODO: Position title</strong> · TODO: Lab, group, or program</dt>
-<dd>
-<em>TODO: Advisor or supervisor · TODO: Month Year - Month Year</em>
-</dd>
-<dd>
-TODO: One or two sentences on the problem and your contribution.
-</dd>
-</dl>
-<p>See the <a href="./research.html">Research</a> page for more detail.</p>
-</section>
-<section id="career-interests" class="level2">
-<h2 data-anchor-id="career-interests">Career Interests</h2>
 <!-- TODO: Adjust - this is a starting draft, not a finished statement. -->
 <p>I’m aiming toward graduate study in quantum information science, and I’m drawn to the theory side: quantum algorithms, error correction, and the representation-theoretic and information-theoretic tools that make them tractable. I’m equally interested in the near-term question of what today’s noisy hardware can genuinely be used for.</p>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<ul>
-<li><strong>B.S. Physics &amp; Mathematics</strong>, Duke University — expected 2027</li>
-</ul>
 </section>
 </div></div>
 </div>

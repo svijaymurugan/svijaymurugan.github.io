@@ -1,5 +1,6 @@
 ---
 title: "Siddharth Vijaymurugan"
+subtitle: "B.S. Physics &amp; Mathematics, Duke University &middot; Expected 2027"
 description-meta: "Physics and Mathematics at Duke University"
 image: "files/images/headshot.jpg"
 page-navigation: false
@@ -40,31 +41,11 @@ information.
 <!-- TODO: Replace or extend this with a couple of sentences in your own voice - what drew you
      to the field, what you like working on, anything outside coursework worth mentioning. -->
 
-## Research Experience
-
-<!-- TODO: Fill in each entry below. Delete any you don't need, copy the block for more. -->
-
-**TODO: Position title** · TODO: Lab or group name
-: *TODO: Advisor name, Duke University · TODO: Month Year - Present*
-: TODO: One or two sentences on what you actually worked on and what came of it.
-
-**TODO: Position title** · TODO: Lab, group, or program
-: *TODO: Advisor or supervisor · TODO: Month Year - Month Year*
-: TODO: One or two sentences on the problem and your contribution.
-
-See the [Research](research.qmd) page for more detail.
-
-## Career Interests
-
 <!-- TODO: Adjust - this is a starting draft, not a finished statement. -->
 
 I'm aiming toward graduate study in quantum information science, and I'm drawn to the theory
 side: quantum algorithms, error correction, and the representation-theoretic and
 information-theoretic tools that make them tractable. I'm equally interested in the near-term
 question of what today's noisy hardware can genuinely be used for.
-
-## Education
-
-- **B.S. Physics & Mathematics**, Duke University — expected 2027
 
 :::

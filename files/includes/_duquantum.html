@@ -2,12 +2,15 @@
   DuQuantum announcement, injected above the about block on the homepage.
   Wired up in index.qmd via: format.html.include-before-body
 
-  NOTE: must be a <div class="column-page">, never an <aside>. Quarto's grid CSS
-  has `aside:not(.footnotes):not(.sidebar){grid-column:body-end/page-end}`, which
+  NOTE: must be a <div>, never an <aside>. Quarto's grid CSS has
+  `aside:not(.footnotes):not(.sidebar){grid-column:body-end/page-end}`, which
   throws the element into the right margin column.
 
+  The column-body class matches the class Quarto puts on the about block
+  (.quarto-about-trestles) so the two line up on the same grid column.
+
 -->
-<div class="duq-banner column-page">
+<div class="duq-banner">
   <p class="duq-title">
     <a class="duq-link" href="https://duquantum.org" target="_blank" rel="noopener"><span class="duq-brand">DuQuantum</span> Applications Open!</a>
   </p>

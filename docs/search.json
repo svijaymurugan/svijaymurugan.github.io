@@ -39,28 +39,7 @@
     "href": "index.html#about-me",
     "title": "Siddharth Vijaymurugan",
     "section": "About Me",
-    "text": "About Me\nI’m an undergraduate at Duke University studying Physics and Mathematics, graduating in 2027. My interests sit where the two meet: quantum information science, where questions about what physical systems can compute turn out to be questions about structure, representation, and information."
-  },
-  {
-    "objectID": "index.html#research-experience",
-    "href": "index.html#research-experience",
-    "title": "Siddharth Vijaymurugan",
-    "section": "Research Experience",
-    "text": "Research Experience\n\n\nTODO: Position title · TODO: Lab or group name\n\nTODO: Advisor name, Duke University · TODO: Month Year - Present\n\n\nTODO: One or two sentences on what you actually worked on and what came of it.\n\nTODO: Position title · TODO: Lab, group, or program\n\nTODO: Advisor or supervisor · TODO: Month Year - Month Year\n\n\nTODO: One or two sentences on the problem and your contribution.\n\n\nSee the Research page for more detail."
-  },
-  {
-    "objectID": "index.html#career-interests",
-    "href": "index.html#career-interests",
-    "title": "Siddharth Vijaymurugan",
-    "section": "Career Interests",
-    "text": "Career Interests\n\nI’m aiming toward graduate study in quantum information science, and I’m drawn to the theory side: quantum algorithms, error correction, and the representation-theoretic and information-theoretic tools that make them tractable. I’m equally interested in the near-term question of what today’s noisy hardware can genuinely be used for."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Siddharth Vijaymurugan",
-    "section": "Education",
-    "text": "Education\n\nB.S. Physics & Mathematics, Duke University — expected 2027"
+    "text": "About Me\nI’m an undergraduate at Duke University studying Physics and Mathematics, graduating in 2027. My interests sit where the two meet: quantum information science, where questions about what physical systems can compute turn out to be questions about structure, representation, and information.\n\n\nI’m aiming toward graduate study in quantum information science, and I’m drawn to the theory side: quantum algorithms, error correction, and the representation-theoretic and information-theoretic tools that make them tractable. I’m equally interested in the near-term question of what today’s noisy hardware can genuinely be used for."
   },
   {
     "objectID": "contact.html",

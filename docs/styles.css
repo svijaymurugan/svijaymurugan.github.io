@@ -5,6 +5,11 @@
    --------------------------------------------------------------- */
 
 .duq-banner {
+  /* Match the grid column Quarto gives the about block (.column-page), so the
+     two line up. Pinned here rather than via a column-* class on the element:
+     Quarto reassigns the about block's own column class in response to one,
+     and the two ended up permanently mismatched. */
+  grid-column: page-start / page-end;
   margin: 0 0 1.25rem 0;
 }
 
@@ -55,6 +60,32 @@ a.duq-link:focus {
   .duq-title { font-size: 1.55rem; }
   /* Justified text rivers badly in a narrow column */
   .duq-blurb { text-align: left; }
+}
+
+/* ---------------------------------------------------------------
+   Homepage about column: degree line below the headshot and links
+
+   Quarto emits the `subtitle` front matter inside .quarto-title, next to the
+   <h1> name. `display: contents` dissolves that wrapper so the h1 and the
+   subtitle become direct flex children of .about-entity, which lets `order`
+   place the degree line after the links. The column is already centered by
+   the trestles stylesheet.
+   --------------------------------------------------------------- */
+
+.quarto-about-trestles .about-entity .quarto-title { display: contents; }
+
+.quarto-about-trestles .about-entity > .about-image     { order: 1; }
+.quarto-about-trestles .about-entity .title             { order: 2; }
+.quarto-about-trestles .about-entity > .quarto-title-meta { order: 3; }
+.quarto-about-trestles .about-entity > .about-links     { order: 4; }
+
+.quarto-about-trestles .about-entity .subtitle {
+  order: 5;
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--bs-secondary-color, #6c757d);
 }
 
 /* ---------------------------------------------------------------
