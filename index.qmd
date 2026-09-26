@@ -18,7 +18,7 @@ about:
   links:
     - icon: envelope
       text: E-mail
-      href: mailto:sv284@duke.edu
+      href: mailto:siddharth.vijaymurugan@duke.edu
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/siddharth-vijaymurugan-37807624b/

@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "**/*.qmd"   # Only .qmd files become pages, so notes like EDITING.md stay out of the site
 #  pre-render:  # Re-enable only if you use the publications.xlsx pipeline (needs: pip install openpyxl)
 #    - python xlsx_to_yml.py  # Automatically generate publications.yml from publications.xlsx
 

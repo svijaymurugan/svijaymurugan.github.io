@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://svijaymurugan.github.io/teaching.html</loc>
+    <lastmod>2026-09-26T05:52:10.092Z</lastmod>
+  </url>
+  <url>
+    <loc>https://svijaymurugan.github.io/publications.html</loc>
+    <lastmod>2026-09-26T05:52:10.092Z</lastmod>
+  </url>
+  <url>
+    <loc>https://svijaymurugan.github.io/projects.html</loc>
+    <lastmod>2026-09-26T05:52:10.091Z</lastmod>
+  </url>
+  <url>
+    <loc>https://svijaymurugan.github.io/posts/news-title/index.html</loc>
+    <lastmod>2026-09-26T05:52:10.089Z</lastmod>
+  </url>
+  <url>
+    <loc>https://svijaymurugan.github.io/posts.html</loc>
+    <lastmod>2026-09-26T05:52:10.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://svijaymurugan.github.io/index.html</loc>
+    <lastmod>2026-09-26T06:40:32.996Z</lastmod>
+  </url>
+  <url>
+    <loc>https://svijaymurugan.github.io/contact.html</loc>
+    <lastmod>2026-09-26T05:52:10.051Z</lastmod>
+  </url>
+  <url>
     <loc>https://svijaymurugan.github.io/cv.html</loc>
     <lastmod>2026-09-26T06:19:21.082Z</lastmod>
   </url>
@@ -9,20 +37,12 @@
     <lastmod>2026-09-26T05:52:10.087Z</lastmod>
   </url>
   <url>
-    <loc>https://svijaymurugan.github.io/index.html</loc>
-    <lastmod>2026-09-26T06:29:14.220Z</lastmod>
-  </url>
-  <url>
     <loc>https://svijaymurugan.github.io/posts/event-title/index.html</loc>
     <lastmod>2026-09-26T05:52:10.089Z</lastmod>
   </url>
   <url>
-    <loc>https://svijaymurugan.github.io/contact.html</loc>
-    <lastmod>2026-09-26T05:52:10.051Z</lastmod>
-  </url>
-  <url>
-    <loc>https://svijaymurugan.github.io/teaching.html</loc>
-    <lastmod>2026-09-26T05:52:10.092Z</lastmod>
+    <loc>https://svijaymurugan.github.io/posts/paper-title/index.html</loc>
+    <lastmod>2026-09-26T05:52:10.091Z</lastmod>
   </url>
   <url>
     <loc>https://svijaymurugan.github.io/pub-listing.html</loc>
@@ -31,25 +51,5 @@
   <url>
     <loc>https://svijaymurugan.github.io/research.html</loc>
     <lastmod>2026-09-26T06:09:11.324Z</lastmod>
-  </url>
-  <url>
-    <loc>https://svijaymurugan.github.io/posts/paper-title/index.html</loc>
-    <lastmod>2026-09-26T05:52:10.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://svijaymurugan.github.io/posts/news-title/index.html</loc>
-    <lastmod>2026-09-26T05:52:10.089Z</lastmod>
-  </url>
-  <url>
-    <loc>https://svijaymurugan.github.io/projects.html</loc>
-    <lastmod>2026-09-26T05:52:10.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://svijaymurugan.github.io/publications.html</loc>
-    <lastmod>2026-09-26T05:52:10.092Z</lastmod>
-  </url>
-  <url>
-    <loc>https://svijaymurugan.github.io/posts.html</loc>
-    <lastmod>2026-09-26T05:52:10.088Z</lastmod>
   </url>
 </urlset>
