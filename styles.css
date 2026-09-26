@@ -9,41 +9,48 @@
 }
 
 .duq-title {
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.6rem 0;
+  text-align: center;
   font-size: 2.1rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.2;
 }
 
 a.duq-link,
 a.duq-link:visited {
-  color: #00539B; /* Duke blue */
+  color: #6B21A8; /* purple */
+  font-weight: 800;
   text-decoration: none;
-  border-bottom: 2px solid rgba(0, 83, 155, 0.35);
+  border-bottom: 2px solid rgba(107, 33, 168, 0.35);
 }
 
 a.duq-link:hover,
 a.duq-link:focus {
-  color: #003f75;
-  border-bottom-color: #003f75;
+  color: #55187f;
+  border-bottom-color: #55187f;
 }
 
 .duq-blurb {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 55rem;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
   font-size: 1.05rem;
   line-height: 1.55;
-  max-width: 55rem;
 }
 
 .duq-rule {
   margin: 1.5rem 0 0 0;
   border: 0;
-  border-top: 2px solid rgba(0, 83, 155, 0.3);
+  border-top: 2px solid rgba(107, 33, 168, 0.3);
   opacity: 1;
 }
 
 @media (max-width: 575px) {
   .duq-title { font-size: 1.55rem; }
+  /* Justified text rivers badly in a narrow column */
+  .duq-blurb { text-align: left; }
 }
 
 /* ---------------------------------------------------------------
