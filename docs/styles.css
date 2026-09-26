@@ -18,16 +18,20 @@
 
 a.duq-link,
 a.duq-link:visited {
-  color: #6B21A8; /* purple */
+  color: inherit;  /* neutral body text; only .duq-brand is purple */
   font-weight: 800;
   text-decoration: none;
-  border-bottom: 2px solid rgba(107, 33, 168, 0.35);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 a.duq-link:hover,
 a.duq-link:focus {
-  color: #55187f;
-  border-bottom-color: #55187f;
+  color: inherit;
+  border-bottom-color: rgba(0, 0, 0, 0.45);
+}
+
+.duq-brand {
+  color: #6B21A8; /* purple */
 }
 
 .duq-blurb {
@@ -43,7 +47,7 @@ a.duq-link:focus {
 .duq-rule {
   margin: 1.5rem 0 0 0;
   border: 0;
-  border-top: 2px solid rgba(107, 33, 168, 0.3);
+  border-top: 1px solid var(--bs-border-color, rgba(0, 0, 0, 0.175));
   opacity: 1;
 }
 
