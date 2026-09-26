@@ -1,100 +1,70 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Siddharth Vijaymurugan"
+description-meta: "Physics and Mathematics at Duke University"
+image: "files/images/headshot.jpg"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
+
+format:
+  html:
+    include-before-body: files/includes/_duquantum.html
 
 about:
   id: hero-heading
   template: trestles
   image-width: 70%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
+      href: mailto:sv284@duke.edu
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/siddharth-vijaymurugan-37807624b/
       target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
+    - icon: github
+      text: GitHub
+      href: https://github.com/svijaymurugan
       target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
 ---
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+## About Me
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+I'm an undergraduate at **Duke University** studying **Physics and Mathematics**, graduating in
+2027. My interests sit where the two meet: quantum information science, where questions about
+what physical systems can compute turn out to be questions about structure, representation, and
+information.
 
-I can automatically generate a neat publication list from an Excel file and enabling categories and filters.
+<!-- TODO: Replace or extend this with a couple of sentences in your own voice - what drew you
+     to the field, what you like working on, anything outside coursework worth mentioning. -->
 
-Check [Quarto Academic Website Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html) and [README.md](https://github.com/drganghe/quarto-academic-website-template/blob/main/README.md) for more detailed instructions.
+## Research Experience
 
-## Experience
+<!-- TODO: Fill in each entry below. Delete any you don't need, copy the block for more. -->
 
-- Researcher, Univerisity
-- Consultant, Company
-- Intern, Institute
+**TODO: Position title** · TODO: Lab or group name
+: *TODO: Advisor name, Duke University · TODO: Month Year - Present*
+: TODO: One or two sentences on what you actually worked on and what came of it.
+
+**TODO: Position title** · TODO: Lab, group, or program
+: *TODO: Advisor or supervisor · TODO: Month Year - Month Year*
+: TODO: One or two sentences on the problem and your contribution.
+
+See the [Research](research.qmd) page for more detail.
+
+## Career Interests
+
+<!-- TODO: Adjust - this is a starting draft, not a finished statement. -->
+
+I'm aiming toward graduate study in quantum information science, and I'm drawn to the theory
+side: quantum algorithms, error correction, and the representation-theoretic and
+information-theoretic tools that make them tractable. I'm equally interested in the near-term
+question of what today's noisy hardware can genuinely be used for.
 
 ## Education
 
-- PhD, Univerisity
-- Master, Univerisity
-- Bachelor, Univerisity
+- **B.S. Physics & Mathematics**, Duke University — expected 2027
 
 :::
-
-
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
-:::
-
-<p align="right">[All Posts »](/posts.qmd)</p>

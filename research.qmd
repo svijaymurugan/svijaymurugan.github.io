@@ -1,0 +1,52 @@
+---
+title: "Research"
+description-meta: "Research projects and interests - Siddharth Vijaymurugan"
+title-block-banner: false
+toc: true
+---
+
+## Interests
+
+<!-- TODO: A short paragraph framing what you work on. The draft below is a starting point. -->
+
+I work on quantum information science, with a bias toward the theoretical end: quantum
+algorithms, error correction, and the mathematical structures — representation theory, linear
+algebra over interesting spaces — that make quantum systems analyzable rather than merely
+simulable.
+
+<!-- =====================================================================
+     TODO: One section per project. Copy the block below for each.
+     Delete the placeholders once real content is in.
+     ===================================================================== -->
+
+## TODO: Project title
+
+*TODO: Group or lab · TODO: Advisor · TODO: Month Year – Month Year*
+
+**The question.** TODO: What problem were you actually trying to solve, stated so a physics
+undergraduate outside your subfield could follow it?
+
+**What I did.** TODO: Your specific contribution — methods, code, derivations, measurements.
+
+**Where it went.** TODO: Result, writeup, poster, talk, or "ongoing."
+
+<!-- Optional: link out to a paper, repo, or poster
+[Preprint](https://TODO) · [Code](https://TODO) · [Poster (PDF)](files/TODO.pdf)
+-->
+
+## TODO: Project title
+
+*TODO: Group or lab · TODO: Advisor · TODO: Month Year – Month Year*
+
+**The question.** TODO
+
+**What I did.** TODO
+
+**Where it went.** TODO
+
+## Talks & Writeups
+
+<!-- TODO: Delete this section if it's empty for now, or fill it in. -->
+
+- TODO: Talk or poster title — *venue*, Month Year
+- TODO: Writeup or note title — [PDF](files/TODO.pdf)
