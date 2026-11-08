@@ -210,21 +210,20 @@ https://badge.dimensions.ai/
 
 <section id="interests" class="level2">
 <h2 class="anchored" data-anchor-id="interests">Interests</h2>
-<p>I’m interested in the interface of AMO physics and quantum computing: how atoms, controlled with lasers and electromagnetic fields, can serve as qubits and as quantum simulators. On the theory side, I’m drawn to condensed matter theory and its intersections with quantum information theory and quantum field theory. I’m now starting a project on quantum information processing with indium atoms.</p>
+<p>I’m interested in the interface of theory and experiment in AMO physics, in the context of quantum information. I’m also interested in condensed matter theory and its intersections with quantum information theory and quantum field theory.</p>
 </section>
 <section id="simulating-an-indium-bose-einstein-condensate" class="level2">
 <h2 class="anchored" data-anchor-id="simulating-an-indium-bose-einstein-condensate">Simulating an indium Bose-Einstein condensate</h2>
 <div class="research-row">
 <div class="research-text">
 <p><strong>Background.</strong> The Nicholson lab is working toward a Bose-Einstein condensate (BEC) of indium atoms. Indium’s properties suggest its atoms may scatter off each other <em>anisotropically</em>, meaning the interaction depends on direction, which could produce new physics in the condensate. The condensate’s dynamics are governed by an extended <strong>Gross-Pitaevskii equation (GPE)</strong>, a nonlinear version of the Schrödinger equation for BECs, with anisotropic interaction terms relevant to indium.</p>
-<p><strong>My contributions.</strong> I built a 3D simulation of this extended, anisotropic GPE, solved with the <strong>Fourier split-step method</strong>. It can:</p>
+<p><strong>My contributions.</strong> I built a GPU-accelerated 3D simulation of this extended, anisotropic GPE, solved with the <strong>Fourier split-step method</strong> and written in PyTorch. It can:</p>
 <ul>
 <li>find the condensate’s ground state with <strong>imaginary-time evolution</strong>, then evolve it in <strong>real time</strong>, switching between the two with a single option;</li>
 <li>run in a selectable <strong>trapping potential</strong> (harmonic or others), with new potentials easy to add;</li>
 <li><strong>quench</strong> the system by changing the potential or interaction parameters partway through a run and following the response;</li>
 <li>save intermediate frames and render movies of the density, like the ones shown here.</li>
 </ul>
-<p>The code is GPU-accelerated with PyTorch.</p>
 </div>
 <div class="research-media">
 <p><a href="files/images/bec/density_xy.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="files/images/bec/density_xy.gif" class="img-fluid" loading="lazy" alt="Animated column density of the condensate in the xy plane, breaking up into a lattice of density peaks"></a></p>
@@ -234,7 +233,6 @@ https://badge.dimensions.ai/
 </section>
 <section id="detecting-entanglement-in-scalar-fields-with-majorization" class="level2">
 <h2 class="anchored" data-anchor-id="detecting-entanglement-in-scalar-fields-with-majorization">Detecting entanglement in scalar fields with majorization</h2>
-<p><em>Duke University · Advisor: Prof.&nbsp;Natalie Klco · August 2025 – Present</em></p>
 <p><strong>Background.</strong> How much entanglement exists between two separate, non-overlapping regions of a quantum scalar field, and how can we detect it? I’m studying whether <strong>majorization</strong> (a mathematical way of ordering probability distributions by how “spread out” they are) gives useful criteria for detecting that entanglement, and how the entanglement behaves in the <strong>continuum limit</strong>.</p>
 <div class="research-refs">
 <p><strong>References</strong></p>
@@ -245,7 +243,6 @@ https://badge.dimensions.ai/
 </section>
 <section id="quantum-error-detection-with-pauli-checks" class="level2">
 <h2 class="anchored" data-anchor-id="quantum-error-detection-with-pauli-checks">Quantum error detection with Pauli checks</h2>
-<p><em>Argonne National Laboratory (DOE SULI) · Advisors: Dr.&nbsp;Zain Saleem and Dr.&nbsp;Ji Liu · May – December 2025</em></p>
 <p><strong>Background.</strong> Errors on today’s quantum computers can be caught by “sandwiching” part of a circuit between Pauli checks: extra operations that flag runs where an error occurred, so those runs can be thrown out. Real hardware noise is often <em>biased</em>, with some kinds of errors far more likely than others. How well do these checks hold up under biased noise, and how should a compiler use them?</p>
 <p><strong>My contributions.</strong> I implemented and benchmarked a Pauli-check error-detection protocol under biased noise models, to inform how <strong>QuantEM</strong>, a quantum error management compiler, applies error detection. The work is part of the QuantEM paper (<a href="https://arxiv.org/abs/2509.15505">arXiv:2509.15505</a>), and I presented it as <em>Automatic Quantum Error Detection with Pauli Checks</em> at Argonne (August 2025). It also motivated an investigation into using deep learning models to characterize hardware noise.</p>
 <div class="research-refs">
@@ -259,7 +256,6 @@ https://badge.dimensions.ai/
 </section>
 <section id="faster-quantum-gates-through-pulse-level-control" class="level2">
 <h2 class="anchored" data-anchor-id="faster-quantum-gates-through-pulse-level-control">Faster quantum gates through pulse-level control</h2>
-<p><em>North Carolina State University · Advisor: Prof.&nbsp;Lex Kemper · July – August 2023</em></p>
 <p><strong>Background.</strong> On superconducting quantum computers, each gate is ultimately a microwave pulse, and qubits decohere over time, so longer circuits accumulate more error. Can we shorten circuits by working directly at the pulse level instead of assembling every operation from a fixed set of native gates?</p>
 <p><strong>My contributions.</strong> Using Qiskit Pulse on IBM backends, I built parametrized gates by scaling the calibrated microwave pulses (single-qubit drives and the cross-resonance pulses inside the two-qubit ECR gate) instead of decomposing rotations into standard gate sequences. I checked that the pulse-scaled rotations matched the conventional gates’ accuracy, then used them to simulate the time evolution of a 3-qubit spin system.</p>
 <p><strong>Results.</strong> Operations ran about <strong>60% faster</strong>. Shorter execution let us simulate the system to longer times: the pulse-level circuits tracked the ideal magnetization dynamics noticeably longer than the conventionally compiled ones.</p>
@@ -321,7 +317,6 @@ https://badge.dimensions.ai/
 </section>
 <section id="interfacial-free-energy-of-soft-matter-with-molecular-dynamics" class="level2">
 <h2 class="anchored" data-anchor-id="interfacial-free-energy-of-soft-matter-with-molecular-dynamics">Interfacial free energy of soft matter with molecular dynamics</h2>
-<p><em>Duke University · Advisor: Prof.&nbsp;Gaurav Arya · June 2026 – Present</em></p>
 <div class="research-row">
 <div class="research-text">
 <p><strong>Background.</strong> When a particle sits at an interface, its free energy depends on how it is oriented. Mapping that orientational free energy landscape tells us which orientations a soft matter system prefers, and how strongly.</p>

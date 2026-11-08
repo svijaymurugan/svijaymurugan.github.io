@@ -9,11 +9,9 @@ image: "files/images/headshot.jpg"
 
 ## Interests
 
-I'm interested in the interface of AMO physics and quantum computing: how atoms, controlled
-with lasers and electromagnetic fields, can serve as qubits and as quantum simulators. On the
-theory side, I'm drawn to condensed matter theory and its intersections with quantum
-information theory and quantum field theory. I'm now starting a project on quantum
-information processing with indium atoms.
+I'm interested in the interface of theory and experiment in AMO physics, in the context of
+quantum information. I'm also interested in condensed matter theory and its intersections
+with quantum information theory and quantum field theory.
 
 ## Simulating an indium Bose-Einstein condensate
 
@@ -26,8 +24,8 @@ physics in the condensate. The condensate's dynamics are governed by an extended
 **Gross-Pitaevskii equation (GPE)**, a nonlinear version of the Schrödinger equation for
 BECs, with anisotropic interaction terms relevant to indium.
 
-**My contributions.** I built a 3D simulation of this extended, anisotropic GPE, solved with the
-**Fourier split-step method**. It can:
+**My contributions.** I built a GPU-accelerated 3D simulation of this extended, anisotropic GPE, solved with the
+**Fourier split-step method** and written in PyTorch. It can:
 
 - find the condensate's ground state with **imaginary-time evolution**, then evolve it in
   **real time**, switching between the two with a single option;
@@ -36,8 +34,6 @@ BECs, with anisotropic interaction terms relevant to indium.
 - **quench** the system by changing the potential or interaction parameters partway through
   a run and following the response;
 - save intermediate frames and render movies of the density, like the ones shown here.
-
-The code is GPU-accelerated with PyTorch.
 :::
 
 ::: {.research-media}
@@ -48,8 +44,6 @@ The code is GPU-accelerated with PyTorch.
 :::
 
 ## Detecting entanglement in scalar fields with majorization
-
-*Duke University · Advisor: Prof. Natalie Klco · August 2025 – Present*
 
 **Background.** How much entanglement exists between two separate, non-overlapping
 regions of a quantum scalar field, and how can we detect it? I'm studying whether
@@ -67,9 +61,6 @@ entanglement behaves in the **continuum limit**.
 :::
 
 ## Quantum error detection with Pauli checks
-
-*Argonne National Laboratory (DOE SULI) · Advisors: Dr. Zain Saleem and Dr. Ji Liu ·
-May – December 2025*
 
 **Background.** Errors on today's quantum computers can be caught by "sandwiching" part of
 a circuit between Pauli checks: extra operations that flag runs where an error occurred, so
@@ -98,8 +89,6 @@ an investigation into using deep learning models to characterize hardware noise.
 :::
 
 ## Faster quantum gates through pulse-level control
-
-*North Carolina State University · Advisor: Prof. Lex Kemper · July – August 2023*
 
 **Background.** On superconducting quantum computers, each gate is ultimately a microwave
 pulse, and qubits decohere over time, so longer circuits accumulate more error. Can we
@@ -142,8 +131,6 @@ dynamics noticeably longer than the conventionally compiled ones.
 :::
 
 ## Interfacial free energy of soft matter with molecular dynamics
-
-*Duke University · Advisor: Prof. Gaurav Arya · June 2026 – Present*
 
 ::: {.research-row}
 ::: {.research-text}

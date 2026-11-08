@@ -36,8 +36,7 @@ problems at the frontier of the field. I led the organizing team that put it tog
 ![Teams at work during the 24-hour hack](files/images/duquantum/hacking.jpg){fig-alt="Students working at laptops around tables during the hackathon"}
 :::
 
-DuQuantum was made possible by our sponsors (Alice & Bob, Pasqal, BlueQubit, Google, IQM
+DuQuantum 2026 was made possible by our sponsors (Alice & Bob, Pasqal, BlueQubit, Google, IQM
 Quantum Computers, Classiq, Quandela, neQxt, the Duke Physics Department, and the Duke Rhodes
 Information Initiative), by faculty and staff of the Duke Quantum Center, and by an
 organizing team that worked on it for months. Most of all, it was made by the participants.
-We hope to see you all, and more, next year!
