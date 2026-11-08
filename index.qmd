@@ -27,18 +27,7 @@ about:
 ## About Me
 
 I'm an undergraduate at **Duke University** studying **Physics and Mathematics**, graduating in
-2027. My interests sit where the two meet: quantum information science, where questions about
-what physical systems can compute turn out to be questions about structure, representation, and
-information.
-
-<!-- TODO: Replace or extend this with a couple of sentences in your own voice - what drew you
-     to the field, what you like working on, anything outside coursework worth mentioning. -->
-
-<!-- TODO: Adjust - this is a starting draft, not a finished statement. -->
-
-I'm aiming toward graduate study in quantum information science, and I'm drawn to the theory
-side: quantum algorithms, error correction, and the representation-theoretic and
-information-theoretic tools that make them tractable. I'm equally interested in the near-term
-question of what today's noisy hardware can genuinely be used for.
+2027. I'm interested in the intersection of theory and experiment in quantum computing. I hope
+to pursue a PhD in physics, working on theory that's relevant to experiment.
 
 :::
