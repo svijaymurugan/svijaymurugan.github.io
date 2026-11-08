@@ -48,6 +48,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-983d5e7348da3dce19c411959767e89e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -136,6 +139,10 @@ https://badge.dimensions.ai/
     <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./other.html"> 
+<span class="menu-text">Other</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -170,9 +177,12 @@ https://badge.dimensions.ai/
    
   <ul>
   <li><a href="#interests" id="toc-interests" class="nav-link active" data-scroll-target="#interests">Interests</a></li>
-  <li><a href="#todo-project-title" id="toc-todo-project-title" class="nav-link" data-scroll-target="#todo-project-title">TODO: Project title</a></li>
-  <li><a href="#todo-project-title-1" id="toc-todo-project-title-1" class="nav-link" data-scroll-target="#todo-project-title-1">TODO: Project title</a></li>
-  <li><a href="#talks-writeups" id="toc-talks-writeups" class="nav-link" data-scroll-target="#talks-writeups">Talks &amp; Writeups</a></li>
+  <li><a href="#simulating-an-indium-bose-einstein-condensate" id="toc-simulating-an-indium-bose-einstein-condensate" class="nav-link" data-scroll-target="#simulating-an-indium-bose-einstein-condensate">Simulating an indium Bose-Einstein condensate</a></li>
+  <li><a href="#detecting-entanglement-in-scalar-fields-with-majorization" id="toc-detecting-entanglement-in-scalar-fields-with-majorization" class="nav-link" data-scroll-target="#detecting-entanglement-in-scalar-fields-with-majorization">Detecting entanglement in scalar fields with majorization</a></li>
+  <li><a href="#quantum-error-detection-with-pauli-checks" id="toc-quantum-error-detection-with-pauli-checks" class="nav-link" data-scroll-target="#quantum-error-detection-with-pauli-checks">Quantum error detection with Pauli checks</a></li>
+  <li><a href="#faster-quantum-gates-through-pulse-level-control" id="toc-faster-quantum-gates-through-pulse-level-control" class="nav-link" data-scroll-target="#faster-quantum-gates-through-pulse-level-control">Faster quantum gates through pulse-level control</a></li>
+  <li><a href="#interfacial-free-energy-of-soft-matter-with-molecular-dynamics" id="toc-interfacial-free-energy-of-soft-matter-with-molecular-dynamics" class="nav-link" data-scroll-target="#interfacial-free-energy-of-soft-matter-with-molecular-dynamics">Interfacial free energy of soft matter with molecular dynamics</a></li>
+  <li><a href="#publications-talks" id="toc-publications-talks" class="nav-link" data-scroll-target="#publications-talks">Publications &amp; Talks</a></li>
   </ul>
 </nav>
     </div>
@@ -200,36 +210,141 @@ https://badge.dimensions.ai/
 
 <section id="interests" class="level2">
 <h2 class="anchored" data-anchor-id="interests">Interests</h2>
-<!-- TODO: A short paragraph framing what you work on. The draft below is a starting point. -->
-<p>I work on quantum information science, with a bias toward the theoretical end: quantum algorithms, error correction, and the mathematical structures — representation theory, linear algebra over interesting spaces — that make quantum systems analyzable rather than merely simulable.</p>
-<!-- =====================================================================
-     TODO: One section per project. Copy the block below for each.
-     Delete the placeholders once real content is in.
-     ===================================================================== -->
+<p>I’m interested in quantum information science, especially where it meets condensed matter and atomic physics: quantum materials, quantum algorithms, and quantum information theory. In practice that has meant numerical simulation of quantum many-body systems, entanglement in quantum fields, and running algorithms on real quantum hardware. Working on Bose-Einstein condensates has recently pulled me toward AMO physics, and I’m now starting a project on quantum information processing with indium atoms.</p>
 </section>
-<section id="todo-project-title" class="level2">
-<h2 class="anchored" data-anchor-id="todo-project-title">TODO: Project title</h2>
-<p><em>TODO: Group or lab · TODO: Advisor · TODO: Month Year – Month Year</em></p>
-<p><strong>The question.</strong> TODO: What problem were you actually trying to solve, stated so a physics undergraduate outside your subfield could follow it?</p>
-<p><strong>What I did.</strong> TODO: Your specific contribution — methods, code, derivations, measurements.</p>
-<p><strong>Where it went.</strong> TODO: Result, writeup, poster, talk, or “ongoing.”</p>
-<!-- Optional: link out to a paper, repo, or poster
-[Preprint](https://TODO) · [Code](https://TODO) · [Poster (PDF)](files/TODO.pdf)
--->
-</section>
-<section id="todo-project-title-1" class="level2">
-<h2 class="anchored" data-anchor-id="todo-project-title-1">TODO: Project title</h2>
-<p><em>TODO: Group or lab · TODO: Advisor · TODO: Month Year – Month Year</em></p>
-<p><strong>The question.</strong> TODO</p>
-<p><strong>What I did.</strong> TODO</p>
-<p><strong>Where it went.</strong> TODO</p>
-</section>
-<section id="talks-writeups" class="level2">
-<h2 class="anchored" data-anchor-id="talks-writeups">Talks &amp; Writeups</h2>
-<!-- TODO: Delete this section if it's empty for now, or fill it in. -->
+<section id="simulating-an-indium-bose-einstein-condensate" class="level2">
+<h2 class="anchored" data-anchor-id="simulating-an-indium-bose-einstein-condensate">Simulating an indium Bose-Einstein condensate</h2>
+<p><em>Nicholson Lab (Ultracold Atoms), Duke University · Advisor: Prof.&nbsp;Travis Nicholson · October 2025 – Present</em></p>
+<div class="research-row">
+<div class="research-text">
+<p><strong>The question.</strong> The Nicholson lab is working toward a Bose-Einstein condensate (BEC) of indium atoms. Indium’s properties suggest its atoms may scatter off each other <em>anisotropically</em>, meaning the interaction depends on direction, which could produce new physics in the condensate. The condensate’s dynamics are governed by an extended <strong>Gross-Pitaevskii equation (GPE)</strong>, a nonlinear version of the Schrödinger equation for BECs, with anisotropic interaction terms relevant to indium.</p>
+<p><strong>What I built.</strong> A 3D simulation of this extended, anisotropic GPE, solved with the <strong>Fourier split-step method</strong>. It can:</p>
 <ul>
-<li>TODO: Talk or poster title — <em>venue</em>, Month Year</li>
-<li>TODO: Writeup or note title — <a href="files/TODO.pdf">PDF</a></li>
+<li>find the condensate’s ground state with <strong>imaginary-time evolution</strong>, then evolve it in <strong>real time</strong>, switching between the two with a single option;</li>
+<li>run in a selectable <strong>trapping potential</strong> (harmonic or others), with new potentials easy to add;</li>
+<li><strong>quench</strong> the system by changing the potential or interaction parameters partway through a run and following the response;</li>
+<li>save intermediate frames and render movies of the density, like the ones shown here.</li>
+</ul>
+<p>The code is object-oriented and GPU-accelerated in PyTorch, which made it <strong>13.5× faster</strong> than the original version. I checked it against problems with known answers (the 1D, 2D and 3D harmonic oscillators, then the standard GPE) and set the grid so that several points cover the condensate’s <strong>healing length</strong>, the shortest length scale in the system.</p>
+</div>
+<div class="research-media">
+<p><a href="files/images/bec/density_xy.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="files/images/bec/density_xy.gif" class="img-fluid" loading="lazy" alt="Animated column density of the condensate in the xy plane, breaking up into a lattice of density peaks"></a></p>
+<p><a href="files/images/bec/density_xz.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="files/images/bec/density_xz.gif" class="img-fluid" loading="lazy" alt="Animated column density of the condensate in the xz plane, showing stripe-like density modulation"></a></p>
+<p><span class="research-caption">Example real-time run: column density in the <em>xy</em> (top) and <em>xz</em> (bottom) planes.</span></p>
+</div>
+</div>
+<p>Building it meant learning both the numerical methods (finite differences, operator splitting, the FFT and Nyquist sampling) and the physics behind the equation (the mean-field and Thomas-Fermi approximations, Bogoliubov theory, trapping, and droplet phases). In the lab, I also build, calibrate, and test custom electronics (e.g., a digital loop filter) for the atomic physics experiments.</p>
+</section>
+<section id="detecting-entanglement-in-scalar-fields-with-majorization" class="level2">
+<h2 class="anchored" data-anchor-id="detecting-entanglement-in-scalar-fields-with-majorization">Detecting entanglement in scalar fields with majorization</h2>
+<p><em>Duke University · Advisor: Prof.&nbsp;Natalie Klco · August 2025 – Present</em></p>
+<p><strong>The question.</strong> How much entanglement exists between two separate, non-overlapping regions of a quantum scalar field, and how can we detect it? I’m studying whether <strong>majorization</strong> (a mathematical way of ordering probability distributions by how “spread out” they are) gives useful criteria for detecting that entanglement, and how the entanglement behaves in the <strong>continuum limit</strong>.</p>
+<p><strong>What I did.</strong> I ran parallelized Mathematica computations to apply majorization techniques to scalar-field entanglement, and numerically computed how entanglement between disjoint regions scales as the field approaches the continuum. I wrote mathematical proofs to confirm the numerical results rigorously, and compared our methods against standard benchmarks to make sure the results are accurate and reproducible.</p>
+<p><strong>Where it went.</strong> I presented this work as <em>Divergence of Assisted Entanglement in the Continuum Limit of Scalar Fields</em> at the Duke Undergraduate Research Symposium (April 2026). A manuscript is in progress.</p>
+<div class="research-refs">
+<p><strong>References</strong></p>
+<ol type="1">
+<li>B. Gao and N. Klco, Detecting spacelike vacuum entanglement at all distances and promoting negativity to a necessary and sufficient entanglement measure in many-body regimes, <em>Phys. Rev.&nbsp;A</em> <strong>112</strong>, 012430 (2025). <a href="https://doi.org/10.1103/m9w1-ppqz">doi:10.1103/m9w1-ppqz</a> · <a href="https://arxiv.org/abs/2410.04162">arXiv:2410.04162</a></li>
+</ol>
+</div>
+</section>
+<section id="quantum-error-detection-with-pauli-checks" class="level2">
+<h2 class="anchored" data-anchor-id="quantum-error-detection-with-pauli-checks">Quantum error detection with Pauli checks</h2>
+<p><em>Argonne National Laboratory (DOE SULI) · Advisors: Dr.&nbsp;Zain Saleem and Dr.&nbsp;Ji Liu · May – December 2025</em></p>
+<p><strong>The question.</strong> Errors on today’s quantum computers can be caught by “sandwiching” part of a circuit between Pauli checks: extra operations that flag runs where an error occurred, so those runs can be thrown out. Real hardware noise is often <em>biased</em>, with some kinds of errors far more likely than others. How well do these checks hold up under biased noise, and how should a compiler use them?</p>
+<p><strong>What I did.</strong> I benchmarked a Pauli-check error-detection protocol under biased noise models, to inform how <strong>QuantEM</strong>, a quantum error management compiler, applies error detection. The work involved an in-depth literature review, simulation experiments, and data analysis in Pandas.</p>
+<p><strong>Where it went.</strong> The work is part of the QuantEM paper (<a href="https://arxiv.org/abs/2509.15505">arXiv:2509.15505</a>), and I presented it as <em>Automatic Quantum Error Detection with Pauli Checks</em> at Argonne (August 2025). It also motivated an investigation into using deep learning models to characterize hardware noise.</p>
+<div class="research-refs">
+<p><strong>References</strong></p>
+<ol type="1">
+<li>A. Gonzales, R. Shaydulin, Z. H. Saleem, and M. Suchara, “Quantum error mitigation by Pauli check sandwiching,” <em>Sci. Rep.</em> <strong>13</strong>, 2122 (2023).</li>
+<li>D. M. Debroy and K. R. Brown, “Extended flag gadgets for low-overhead circuit verification,” <em>Phys. Rev.&nbsp;A</em> <strong>102</strong>, 052409 (2020). <a href="https://doi.org/10.1103/PhysRevA.102.052409">doi:10.1103/PhysRevA.102.052409</a></li>
+<li>E. van den Berg, S. Bravyi, J. M. Gambetta, P. Jurcevic, D. Maslov, and K. Temme, “Single-shot error mitigation by coherent Pauli checks,” <em>Phys. Rev.&nbsp;Research</em> <strong>5</strong>, 033193 (2023).</li>
+</ol>
+</div>
+</section>
+<section id="faster-quantum-gates-through-pulse-level-control" class="level2">
+<h2 class="anchored" data-anchor-id="faster-quantum-gates-through-pulse-level-control">Faster quantum gates through pulse-level control</h2>
+<p><em>North Carolina State University · Advisor: Prof.&nbsp;Lex Kemper · July – August 2023</em></p>
+<p><strong>The question.</strong> On superconducting quantum computers, each gate is ultimately a microwave pulse, and qubits decohere over time, so longer circuits accumulate more error. Can we shorten circuits by working directly at the pulse level instead of assembling every operation from a fixed set of native gates?</p>
+<p><strong>What I did.</strong> Using Qiskit Pulse on IBM backends, I built parametrized gates by scaling the calibrated microwave pulses (single-qubit drives and the cross-resonance pulses inside the two-qubit ECR gate) instead of decomposing rotations into standard gate sequences. I checked that the pulse-scaled rotations matched the conventional gates’ accuracy, then used them to simulate the time evolution of a 3-qubit spin system.</p>
+<p><strong>Where it went.</strong> Operations ran about <strong>60% faster</strong>. Shorter execution let us simulate the system to longer times: the pulse-level circuits tracked the ideal magnetization dynamics noticeably longer than the conventionally compiled ones.</p>
+<div class="quarto-layout-panel" data-layout="[[1,1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/images/ncsu/x-pulse.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Calibrated X(π) pulse on a single qubit"><img src="files/images/ncsu/x-pulse.png" class="img-fluid figure-img" alt="Pulse schedule of a 60 ns Gaussian-like X(pi) drive pulse on ibm_brisbane"></a></p>
+<figcaption>Calibrated X(π) pulse on a single qubit</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/images/ncsu/ecr-pulse.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="ECR gate: cross-resonance pulses with an echo"><img src="files/images/ncsu/ecr-pulse.png" class="img-fluid figure-img" alt="Pulse schedule of a 660 ns echoed cross-resonance gate on ibm_osaka across drive and control channels"></a></p>
+<figcaption>ECR gate: cross-resonance pulses with an echo</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/images/ncsu/gate-accuracy.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Pulse-scaled rotations match conventional gate accuracy"><img src="files/images/ncsu/gate-accuracy.png" class="img-fluid figure-img" alt="Plot of ground-state probability versus rotation angle; pulse and conventional gates overlap and track the expected cosine-squared curve"></a></p>
+<figcaption>Pulse-scaled rotations match conventional gate accuracy</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/images/ncsu/magnetization.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Pulse execution tracks ideal 3-qubit dynamics longer"><img src="files/images/ncsu/magnetization.png" class="img-fluid figure-img" alt="Two panels of average magnetization versus evolution time; the pulse execution follows the ideal curve longer than the conventional execution"></a></p>
+<figcaption>Pulse execution tracks ideal 3-qubit dynamics longer</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="files/images/ncsu/durations.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Execution time grows far more slowly with pulses"><img src="files/images/ncsu/durations.png" class="img-fluid figure-img" alt="Plot of execution duration versus evolution time; pulse durations grow much more slowly than conventional durations"></a></p>
+<figcaption>Execution time grows far more slowly with pulses</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="research-refs">
+<p><strong>References</strong></p>
+<ol type="1">
+<li>P. Gokhale, A. Javadi-Abhari, N. Earnest, Y. Shi, and F. T. Chong, “Optimized quantum compilation for near-term algorithms with OpenPulse,” arXiv:2004.11205v2 [quant-ph] (2020). <a href="https://arxiv.org/abs/2004.11205">arXiv:2004.11205</a></li>
+<li>J. P. T. Stenger, N. T. Bronn, D. J. Egger, and D. Pekker, “Simulating the dynamics of braiding of Majorana zero modes using an IBM quantum computer,” <em>Phys. Rev.&nbsp;Research</em> <strong>3</strong>, 033171 (2021).</li>
+</ol>
+</div>
+</section>
+<section id="interfacial-free-energy-of-soft-matter-with-molecular-dynamics" class="level2">
+<h2 class="anchored" data-anchor-id="interfacial-free-energy-of-soft-matter-with-molecular-dynamics">Interfacial free energy of soft matter with molecular dynamics</h2>
+<p><em>Duke University · Advisor: Prof.&nbsp;Gaurav Arya · June 2026 – Present</em></p>
+<div class="research-row">
+<div class="research-text">
+<p><strong>The question.</strong> When a particle sits at an interface, its free energy depends on how it is oriented. Mapping that orientational free energy landscape tells us which orientations a soft matter system prefers, and how strongly.</p>
+<p><strong>What I did.</strong> I implemented a data-driven model to map the orientational interfacial free energy landscape. To build it, I run molecular dynamics simulations in LAMMPS across many physical configurations, parallelized on an HPC Slurm cluster, and compute <strong>potentials of mean force</strong> with <strong>umbrella sampling</strong> to characterize the system’s thermodynamics.</p>
+</div>
+<div class="research-media">
+<p><a href="files/images/arya/constrained-orientation.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="files/images/arya/constrained-orientation.gif" class="img-fluid" loading="lazy" alt="Animated molecular dynamics simulation of a particle held at a fixed orientation in a box of solvent"></a></p>
+<p><span class="research-caption">Molecular dynamics simulation with the particle’s orientation constrained.</span></p>
+</div>
+</div>
+</section>
+<section id="publications-talks" class="level2">
+<h2 class="anchored" data-anchor-id="publications-talks">Publications &amp; Talks</h2>
+<ul>
+<li><strong>QuantEM: The quantum error management compiler.</strong> <a href="https://arxiv.org/abs/2509.15505">arXiv:2509.15505</a> [quant-ph], September 2025</li>
+<li><em>Divergence of Assisted Entanglement in the Continuum Limit of Scalar Fields</em>, Duke University Undergraduate Research Symposium, April 2026</li>
+<li><em>Automatic Quantum Error Detection with Pauli Checks</em>, Argonne National Laboratory (SULI), August 2025</li>
 </ul>
 
 
@@ -669,6 +784,38 @@ Siddharth Vijaymurugan ©
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

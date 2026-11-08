@@ -25,6 +25,8 @@ website:
         href: research.qmd
       - text: CV
         href: cv.qmd
+      - text: Other
+        href: other.qmd
 
 # --- Template sections, kept on disk but unlinked from the navbar. ---
 # Uncomment any block below to bring that page back into the menu.

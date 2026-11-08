@@ -70,18 +70,25 @@
     "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Siddharth Vijaymurugan",
+    "objectID": "other.html",
+    "href": "other.html",
+    "title": "Other",
     "section": "",
-    "text": "DuQuantum Applications Open!\n  \n  \n    DuQuantum is the first annual quantum computing hackathon at Duke. We invite quantum\n    enthusiasts to tackle challenges designed by industry leaders and gain experience with\n    state-of-the-art quantum tools. All undergrad, Master’s and PhD students are eligible."
+    "text": "President, Duke Quantum Information Society · duquantum.org\n\n\n\nThe DuQuantum organizing team and sponsor representatives\n\n\nDuQuantum 2026 was the first quantum computing hackathon ever held at Duke University. For 24 hours, more than 130 students in over 40 teams worked on quantum computing challenges, from complete beginners writing their first quantum circuits to advanced students tackling problems at the frontier of the field. I led the organizing team that put it together.\n\nTwo tracks. Participants chose an Intro Track or a Standard Track depending on their background, so newcomers and experienced students could both find the right challenge.\nSix industry and academic challenges from IQM, Alice & Bob, BlueQubit, Google, the Duke Quantum Center (DQC), and Pasqal. DuQuantum was the first quantum hackathon Pasqal has sponsored.\nOver $30,000 in sponsorships, with more than $4,000 in prizes awarded.\nThe first quantum computing hackathon to be a Major League Hacking (MLH) member event. We were also supported by IBM Quantum through Qiskit Fall Fest.\n\n\n\n\n\n\n\nOpening ceremony\n\n\n\n\n\n\n\nKeynote by Prof. Kenneth Brown: “How to Build a Quantum Computer”\n\n\n\n\n\n\n\nTeams at work during the 24-hour hack\n\n\n\n\n\nDuQuantum was made possible by our sponsors (Alice & Bob, Pasqal, BlueQubit, Google, IQM Quantum Computers, Classiq, Quandela, neQxt, the Duke Physics Department, and the Duke Rhodes Information Initiative), by faculty and staff of the Duke Quantum Center, and by an organizing team that worked on it for months. Most of all, it was made by the participants. We hope to see you all, and more, next year!"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Siddharth Vijaymurugan",
-    "section": "About Me",
-    "text": "About Me\nI’m an undergraduate at Duke University studying Physics and Mathematics, graduating in 2027. My interests sit where the two meet: quantum information science, where questions about what physical systems can compute turn out to be questions about structure, representation, and information.\n\n\nI’m aiming toward graduate study in quantum information science, and I’m drawn to the theory side: quantum algorithms, error correction, and the representation-theoretic and information-theoretic tools that make them tractable. I’m equally interested in the near-term question of what today’s noisy hardware can genuinely be used for."
+    "objectID": "other.html#duquantum-2026",
+    "href": "other.html#duquantum-2026",
+    "title": "Other",
+    "section": "",
+    "text": "President, Duke Quantum Information Society · duquantum.org\n\n\n\nThe DuQuantum organizing team and sponsor representatives\n\n\nDuQuantum 2026 was the first quantum computing hackathon ever held at Duke University. For 24 hours, more than 130 students in over 40 teams worked on quantum computing challenges, from complete beginners writing their first quantum circuits to advanced students tackling problems at the frontier of the field. I led the organizing team that put it together.\n\nTwo tracks. Participants chose an Intro Track or a Standard Track depending on their background, so newcomers and experienced students could both find the right challenge.\nSix industry and academic challenges from IQM, Alice & Bob, BlueQubit, Google, the Duke Quantum Center (DQC), and Pasqal. DuQuantum was the first quantum hackathon Pasqal has sponsored.\nOver $30,000 in sponsorships, with more than $4,000 in prizes awarded.\nThe first quantum computing hackathon to be a Major League Hacking (MLH) member event. We were also supported by IBM Quantum through Qiskit Fall Fest.\n\n\n\n\n\n\n\nOpening ceremony\n\n\n\n\n\n\n\nKeynote by Prof. Kenneth Brown: “How to Build a Quantum Computer”\n\n\n\n\n\n\n\nTeams at work during the 24-hour hack\n\n\n\n\n\nDuQuantum was made possible by our sponsors (Alice & Bob, Pasqal, BlueQubit, Google, IQM Quantum Computers, Classiq, Quandela, neQxt, the Duke Physics Department, and the Duke Rhodes Information Initiative), by faculty and staff of the Duke Quantum Center, and by an organizing team that worked on it for months. Most of all, it was made by the participants. We hope to see you all, and more, next year!"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download CV (PDF) ↓"
   },
   {
     "objectID": "contact.html",
@@ -91,11 +98,18 @@
     "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Siddharth Vijaymurugan",
     "section": "",
-    "text": "Download CV (PDF) ↓"
+    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n\n  \n  \n\n\nI’m an undergraduate at Duke University studying Physics and Mathematics, graduating in 2027. My interests sit where the two meet: quantum information science, where questions about what physical systems can compute turn out to be questions about structure, representation, and information.\n\n\nI’m aiming toward graduate study in quantum information science, and I’m drawn to the theory side: quantum algorithms, error correction, and the representation-theoretic and information-theoretic tools that make them tractable. I’m equally interested in the near-term question of what today’s noisy hardware can genuinely be used for."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Siddharth Vijaymurugan",
+    "section": "",
+    "text": "I’m an undergraduate at Duke University studying Physics and Mathematics, graduating in 2027. My interests sit where the two meet: quantum information science, where questions about what physical systems can compute turn out to be questions about structure, representation, and information.\n\n\nI’m aiming toward graduate study in quantum information science, and I’m drawn to the theory side: quantum algorithms, error correction, and the representation-theoretic and information-theoretic tools that make them tractable. I’m equally interested in the near-term question of what today’s noisy hardware can genuinely be used for."
   },
   {
     "objectID": "people.html",
@@ -158,34 +172,55 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "I work on quantum information science, with a bias toward the theoretical end: quantum algorithms, error correction, and the mathematical structures — representation theory, linear algebra over interesting spaces — that make quantum systems analyzable rather than merely simulable."
+    "text": "I’m interested in quantum information science, especially where it meets condensed matter and atomic physics: quantum materials, quantum algorithms, and quantum information theory. In practice that has meant numerical simulation of quantum many-body systems, entanglement in quantum fields, and running algorithms on real quantum hardware. Working on Bose-Einstein condensates has recently pulled me toward AMO physics, and I’m now starting a project on quantum information processing with indium atoms."
   },
   {
     "objectID": "research.html#interests",
     "href": "research.html#interests",
     "title": "Research",
     "section": "",
-    "text": "I work on quantum information science, with a bias toward the theoretical end: quantum algorithms, error correction, and the mathematical structures — representation theory, linear algebra over interesting spaces — that make quantum systems analyzable rather than merely simulable."
+    "text": "I’m interested in quantum information science, especially where it meets condensed matter and atomic physics: quantum materials, quantum algorithms, and quantum information theory. In practice that has meant numerical simulation of quantum many-body systems, entanglement in quantum fields, and running algorithms on real quantum hardware. Working on Bose-Einstein condensates has recently pulled me toward AMO physics, and I’m now starting a project on quantum information processing with indium atoms."
   },
   {
-    "objectID": "research.html#todo-project-title",
-    "href": "research.html#todo-project-title",
+    "objectID": "research.html#simulating-an-indium-bose-einstein-condensate",
+    "href": "research.html#simulating-an-indium-bose-einstein-condensate",
     "title": "Research",
-    "section": "TODO: Project title",
-    "text": "TODO: Project title\nTODO: Group or lab · TODO: Advisor · TODO: Month Year – Month Year\nThe question. TODO: What problem were you actually trying to solve, stated so a physics undergraduate outside your subfield could follow it?\nWhat I did. TODO: Your specific contribution — methods, code, derivations, measurements.\nWhere it went. TODO: Result, writeup, poster, talk, or “ongoing.”"
+    "section": "Simulating an indium Bose-Einstein condensate",
+    "text": "Simulating an indium Bose-Einstein condensate\nNicholson Lab (Ultracold Atoms), Duke University · Advisor: Prof. Travis Nicholson · October 2025 – Present\n\n\nThe question. The Nicholson lab is working toward a Bose-Einstein condensate (BEC) of indium atoms. Indium’s properties suggest its atoms may scatter off each other anisotropically, meaning the interaction depends on direction, which could produce new physics in the condensate. The condensate’s dynamics are governed by an extended Gross-Pitaevskii equation (GPE), a nonlinear version of the Schrödinger equation for BECs, with anisotropic interaction terms relevant to indium.\nWhat I built. A 3D simulation of this extended, anisotropic GPE, solved with the Fourier split-step method. It can:\n\nfind the condensate’s ground state with imaginary-time evolution, then evolve it in real time, switching between the two with a single option;\nrun in a selectable trapping potential (harmonic or others), with new potentials easy to add;\nquench the system by changing the potential or interaction parameters partway through a run and following the response;\nsave intermediate frames and render movies of the density, like the ones shown here.\n\nThe code is object-oriented and GPU-accelerated in PyTorch, which made it 13.5× faster than the original version. I checked it against problems with known answers (the 1D, 2D and 3D harmonic oscillators, then the standard GPE) and set the grid so that several points cover the condensate’s healing length, the shortest length scale in the system.\n\n\n\n\nExample real-time run: column density in the xy (top) and xz (bottom) planes.\n\n\nBuilding it meant learning both the numerical methods (finite differences, operator splitting, the FFT and Nyquist sampling) and the physics behind the equation (the mean-field and Thomas-Fermi approximations, Bogoliubov theory, trapping, and droplet phases). In the lab, I also build, calibrate, and test custom electronics (e.g., a digital loop filter) for the atomic physics experiments."
   },
   {
-    "objectID": "research.html#todo-project-title-1",
-    "href": "research.html#todo-project-title-1",
+    "objectID": "research.html#detecting-entanglement-in-scalar-fields-with-majorization",
+    "href": "research.html#detecting-entanglement-in-scalar-fields-with-majorization",
     "title": "Research",
-    "section": "TODO: Project title",
-    "text": "TODO: Project title\nTODO: Group or lab · TODO: Advisor · TODO: Month Year – Month Year\nThe question. TODO\nWhat I did. TODO\nWhere it went. TODO"
+    "section": "Detecting entanglement in scalar fields with majorization",
+    "text": "Detecting entanglement in scalar fields with majorization\nDuke University · Advisor: Prof. Natalie Klco · August 2025 – Present\nThe question. How much entanglement exists between two separate, non-overlapping regions of a quantum scalar field, and how can we detect it? I’m studying whether majorization (a mathematical way of ordering probability distributions by how “spread out” they are) gives useful criteria for detecting that entanglement, and how the entanglement behaves in the continuum limit.\nWhat I did. I ran parallelized Mathematica computations to apply majorization techniques to scalar-field entanglement, and numerically computed how entanglement between disjoint regions scales as the field approaches the continuum. I wrote mathematical proofs to confirm the numerical results rigorously, and compared our methods against standard benchmarks to make sure the results are accurate and reproducible.\nWhere it went. I presented this work as Divergence of Assisted Entanglement in the Continuum Limit of Scalar Fields at the Duke Undergraduate Research Symposium (April 2026). A manuscript is in progress.\n\nReferences\n\nB. Gao and N. Klco, Detecting spacelike vacuum entanglement at all distances and promoting negativity to a necessary and sufficient entanglement measure in many-body regimes, Phys. Rev. A 112, 012430 (2025). doi:10.1103/m9w1-ppqz · arXiv:2410.04162"
   },
   {
-    "objectID": "research.html#talks-writeups",
-    "href": "research.html#talks-writeups",
+    "objectID": "research.html#quantum-error-detection-with-pauli-checks",
+    "href": "research.html#quantum-error-detection-with-pauli-checks",
     "title": "Research",
-    "section": "Talks & Writeups",
-    "text": "Talks & Writeups\n\n\nTODO: Talk or poster title — venue, Month Year\nTODO: Writeup or note title — PDF"
+    "section": "Quantum error detection with Pauli checks",
+    "text": "Quantum error detection with Pauli checks\nArgonne National Laboratory (DOE SULI) · Advisors: Dr. Zain Saleem and Dr. Ji Liu · May – December 2025\nThe question. Errors on today’s quantum computers can be caught by “sandwiching” part of a circuit between Pauli checks: extra operations that flag runs where an error occurred, so those runs can be thrown out. Real hardware noise is often biased, with some kinds of errors far more likely than others. How well do these checks hold up under biased noise, and how should a compiler use them?\nWhat I did. I benchmarked a Pauli-check error-detection protocol under biased noise models, to inform how QuantEM, a quantum error management compiler, applies error detection. The work involved an in-depth literature review, simulation experiments, and data analysis in Pandas.\nWhere it went. The work is part of the QuantEM paper (arXiv:2509.15505), and I presented it as Automatic Quantum Error Detection with Pauli Checks at Argonne (August 2025). It also motivated an investigation into using deep learning models to characterize hardware noise.\n\nReferences\n\nA. Gonzales, R. Shaydulin, Z. H. Saleem, and M. Suchara, “Quantum error mitigation by Pauli check sandwiching,” Sci. Rep. 13, 2122 (2023).\nD. M. Debroy and K. R. Brown, “Extended flag gadgets for low-overhead circuit verification,” Phys. Rev. A 102, 052409 (2020). doi:10.1103/PhysRevA.102.052409\nE. van den Berg, S. Bravyi, J. M. Gambetta, P. Jurcevic, D. Maslov, and K. Temme, “Single-shot error mitigation by coherent Pauli checks,” Phys. Rev. Research 5, 033193 (2023)."
+  },
+  {
+    "objectID": "research.html#faster-quantum-gates-through-pulse-level-control",
+    "href": "research.html#faster-quantum-gates-through-pulse-level-control",
+    "title": "Research",
+    "section": "Faster quantum gates through pulse-level control",
+    "text": "Faster quantum gates through pulse-level control\nNorth Carolina State University · Advisor: Prof. Lex Kemper · July – August 2023\nThe question. On superconducting quantum computers, each gate is ultimately a microwave pulse, and qubits decohere over time, so longer circuits accumulate more error. Can we shorten circuits by working directly at the pulse level instead of assembling every operation from a fixed set of native gates?\nWhat I did. Using Qiskit Pulse on IBM backends, I built parametrized gates by scaling the calibrated microwave pulses (single-qubit drives and the cross-resonance pulses inside the two-qubit ECR gate) instead of decomposing rotations into standard gate sequences. I checked that the pulse-scaled rotations matched the conventional gates’ accuracy, then used them to simulate the time evolution of a 3-qubit spin system.\nWhere it went. Operations ran about 60% faster. Shorter execution let us simulate the system to longer times: the pulse-level circuits tracked the ideal magnetization dynamics noticeably longer than the conventionally compiled ones.\n\n\n\n\n\n\nCalibrated X(π) pulse on a single qubit\n\n\n\n\n\n\n\nECR gate: cross-resonance pulses with an echo\n\n\n\n\n\n\n\n\n\n\n\nPulse-scaled rotations match conventional gate accuracy\n\n\n\n\n\n\n\nPulse execution tracks ideal 3-qubit dynamics longer\n\n\n\n\n\n\n\nExecution time grows far more slowly with pulses\n\n\n\n\n\n\nReferences\n\nP. Gokhale, A. Javadi-Abhari, N. Earnest, Y. Shi, and F. T. Chong, “Optimized quantum compilation for near-term algorithms with OpenPulse,” arXiv:2004.11205v2 [quant-ph] (2020). arXiv:2004.11205\nJ. P. T. Stenger, N. T. Bronn, D. J. Egger, and D. Pekker, “Simulating the dynamics of braiding of Majorana zero modes using an IBM quantum computer,” Phys. Rev. Research 3, 033171 (2021)."
+  },
+  {
+    "objectID": "research.html#interfacial-free-energy-of-soft-matter-with-molecular-dynamics",
+    "href": "research.html#interfacial-free-energy-of-soft-matter-with-molecular-dynamics",
+    "title": "Research",
+    "section": "Interfacial free energy of soft matter with molecular dynamics",
+    "text": "Interfacial free energy of soft matter with molecular dynamics\nDuke University · Advisor: Prof. Gaurav Arya · June 2026 – Present\n\n\nThe question. When a particle sits at an interface, its free energy depends on how it is oriented. Mapping that orientational free energy landscape tells us which orientations a soft matter system prefers, and how strongly.\nWhat I did. I implemented a data-driven model to map the orientational interfacial free energy landscape. To build it, I run molecular dynamics simulations in LAMMPS across many physical configurations, parallelized on an HPC Slurm cluster, and compute potentials of mean force with umbrella sampling to characterize the system’s thermodynamics.\n\n\n\nMolecular dynamics simulation with the particle’s orientation constrained."
+  },
+  {
+    "objectID": "research.html#publications-talks",
+    "href": "research.html#publications-talks",
+    "title": "Research",
+    "section": "Publications & Talks",
+    "text": "Publications & Talks\n\nQuantEM: The quantum error management compiler. arXiv:2509.15505 [quant-ph], September 2025\nDivergence of Assisted Entanglement in the Continuum Limit of Scalar Fields, Duke University Undergraduate Research Symposium, April 2026\nAutomatic Quantum Error Detection with Pauli Checks, Argonne National Laboratory (SULI), August 2025"
   }
 ]

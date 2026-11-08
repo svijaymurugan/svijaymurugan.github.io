@@ -7,18 +7,11 @@ page-navigation: false
 toc: false
 page-layout: full
 
-format:
-  html:
-    include-before-body: files/includes/_duquantum.html
-
 about:
   id: hero-heading
   template: trestles
   image-width: 70%
   links:
-    - icon: envelope
-      text: E-mail
-      href: mailto:siddharth.vijaymurugan@duke.edu
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/siddharth-vijaymurugan-37807624b/

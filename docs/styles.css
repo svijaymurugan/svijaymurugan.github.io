@@ -123,3 +123,34 @@ a.cv-download-link:focus {
   border-radius: 0.35rem;
   margin-top: 1.25rem;
 }
+
+/* ---------------------------------------------------------------
+   Research page: text beside media (BEC section)
+   Stacks to one column on narrow screens.
+   --------------------------------------------------------------- */
+
+.research-row {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.research-media p { margin: 0 0 0.75rem 0; }
+
+.research-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.research-caption {
+  display: block;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--bs-secondary-color, #6c757d);
+}
+
+@media (max-width: 767px) {
+  .research-row { grid-template-columns: minmax(0, 1fr); }
+}
